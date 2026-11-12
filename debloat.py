@@ -273,6 +273,13 @@ def gui():
 
     root = tk.Tk()
     root.title("Android Debloat")
+    try:  # icône de la fenêtre (PNG partout, .ico en plus sous Windows)
+        root._icon = tk.PhotoImage(file=str(APP_DIR / "assets" / "icon-256.png"))
+        root.iconphoto(True, root._icon)
+        if os.name == "nt":
+            root.iconbitmap(str(APP_DIR / "assets" / "icon.ico"))
+    except Exception:
+        pass  # sans icône, le programme fonctionne quand même
     root.geometry("900x620")
     state = {"serial": None, "model": "", "pk": {}, "checked": set()}
     presets = load_presets()

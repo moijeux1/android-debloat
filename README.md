@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/icon-256.png" width="128" alt="Logo Android Debloat : un téléphone dont une application est retirée"></p>
+
 # Android Debloat
 
 Retire (ou restaure) les applications préinstallées d'un téléphone Android, depuis un ordinateur Linux ou Windows, via `adb`. Sans root, sans rien installer sur le téléphone, réversible.
@@ -45,6 +47,8 @@ Pour contribuer : ajoute une entrée avec `tested` honnête (modèle et version 
 
 ## Créer un exécutable
     pip install pyinstaller
-    pyinstaller --onefile --windowed --add-data "presets.json:." debloat.py     # Linux
-    pyinstaller --onefile --windowed --add-data "presets.json;." debloat.py     # Windows
+    pyinstaller --onefile --windowed --icon assets/icon.ico --add-data "presets.json:." --add-data "assets:assets" debloat.py     # Linux
+    pyinstaller --onefile --windowed --icon assets/icon.ico --add-data "presets.json;." --add-data "assets;assets" debloat.py     # Windows
+
+Le logo est dans `assets/` (`icon.svg` est la source, les PNG et l'`.ico` en sont tirés).
 (à lancer sur chaque système ; non testé)
