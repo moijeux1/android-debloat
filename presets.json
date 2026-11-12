@@ -1,0 +1,83 @@
+{
+  "Bixby": {
+    "brands": [
+      "samsung"
+    ],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.samsung.android.bixby.agent",
+      "com.samsung.android.bixby.wakeup",
+      "com.samsung.android.app.settings.bixby",
+      "com.samsung.android.bixbyvision.framework",
+      "com.samsung.android.visionintelligence",
+      "com.samsung.android.bixby.ondevice.frfr"
+    ]
+  },
+  "Facebook / Netflix / Microsoft préinstallés": {
+    "brands": [],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.facebook.appmanager",
+      "com.facebook.services",
+      "com.facebook.system",
+      "com.netflix.mediaclient",
+      "com.netflix.partner.activation",
+      "com.microsoft.appmanager",
+      "com.microsoft.skydrive"
+    ]
+  },
+  "AR, stickers, jeux": {
+    "brands": [
+      "samsung"
+    ],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.samsung.android.aremoji",
+      "com.samsung.android.arzone",
+      "com.samsung.android.ardrawing",
+      "com.samsung.android.visualars",
+      "com.samsung.android.app.camera.sticker.facearavatar.preload",
+      "com.samsung.android.app.dressroom",
+      "com.samsung.android.stickercenter",
+      "com.google.ar.core",
+      "com.samsung.android.game.gamehome",
+      "com.samsung.android.game.gametools"
+    ]
+  },
+  "Samsung Free, Tips, Cloud, Meet": {
+    "brands": [
+      "samsung"
+    ],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.samsung.android.app.spage",
+      "com.samsung.android.app.tips",
+      "com.samsung.android.scloud",
+      "com.google.android.apps.tachyon"
+    ]
+  },
+  "Samsung Pay et Pass": {
+    "brands": [
+      "samsung"
+    ],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.samsung.android.spay",
+      "com.samsung.android.samsungpass",
+      "com.samsung.android.samsungpassautofill"
+    ]
+  },
+  "Navigateur, Messages, Galaxy Store, DeX": {
+    "brands": [
+      "samsung"
+    ],
+    "tested": "Samsung Galaxy S20 FE 5G (SM-G781U1), Android 13",
+    "packages": [
+      "com.sec.android.app.sbrowser",
+      "com.samsung.android.messaging",
+      "com.sec.android.app.samsungapps",
+      "com.sec.android.app.dexonpc",
+      "com.sec.android.app.desktoplauncher"
+    ]
+  }
+}
